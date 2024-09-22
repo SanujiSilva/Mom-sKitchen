@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Mom\'s Kitchen</string>
+    <string name="todo">TODO</string>
+    <string name="next">Next</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="back">Back</string>
+    <string name="backP">Back</string>
+    <string name="loginp">Login</string>
+
+    <string-array name="Item1">
+        <item>Choose quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Item2">
+        <item>Choose quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Item3">
+        <item>Choose quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Item4">
+        <item>Choose quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="meal">
+        <item>Choose Meal</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string-array name="person">
+        <item>Choose Number</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+
+</resources>

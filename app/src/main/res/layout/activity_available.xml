@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundpage"
+    tools:context=".available">
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="448dp"
+        android:layout_height="68dp"
+        android:background="@color/backbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="448dp"
+        android:layout_height="67dp"
+        android:background="@color/btnbackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Availability"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view2"
+        app:layout_constraintVertical_bias="0.226">
+
+        <!-- Header Row -->
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@color/backbtn"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@color/backbtn"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_weight="1"
+                android:background="@color/backbtn"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Quantity"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Data Rows -->
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Vegetable"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Carrot"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="1kg"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Meat"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Chicken"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="2kg"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Fruit"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Apple"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="0.5kg"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Other"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Brush"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Vegetable"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Beans"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="0.5kg"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="434dp"
+            android:layout_height="87dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:gravity="center"
+                android:hint="Enter Category"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="229dp"
+                android:layout_height="49dp"
+                android:gravity="center"
+                android:hint="Enter Name"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:gravity="center"
+                android:hint="Quantity"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/backbtn"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="207dp"
+        android:layout_height="73dp"
+        android:backgroundTint="@color/btnbackground"
+        android:text="Save Now"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="70dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="58dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/baseline_logout_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
